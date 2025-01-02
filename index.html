@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous"
+    >
+    <title>お年玉金運占い2025</title>
+</head>
+
+<body>
+    <div class="w-50 mx-auto">
+        <h1
+            class="text-center my-4"
+            style="background-color: #ffdf5f"
+        >お年玉金運占い2025</h1>
+        <div class="mb-3">
+            <label
+                for="nameInput"
+                class="form-label"
+            >名前を入力してください</label>
+            <input
+                type="text"
+                class="form-control"
+                id="nameInput"
+            >
+        </div>
+        <div class="mb-3 text-center">
+            <button
+                id="startButton"
+                type="submit"
+                class="btn btn-primary"
+            >占う</button>
+        </div>
+        <div id="result">
+            <h1
+                id="resultName"
+                class="text-center"
+            ></h1>
+            <div class="position-relative text-center">
+                <img
+                    src="./money.png"
+                    class="mx-auto"
+                    alt="お札"
+                    width="100%"
+                    height="100%"
+                >
+                <div class="position-absolute top-0 start-0 w-100 h-100">
+                    <h1
+                        id="resultValue"
+                        class="position-absolute top-50 start-50 text-nowrap"
+                        style="font-size: 1000%; transform: translate(-50%, -50%);"
+                    ></h1>
+                </div>
+                <div
+                    id="cover"
+                    class="position-absolute top-0 start-0 h-100"
+                    style="background-color: #fff;"
+                ></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./dist/index.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"
+    ></script>
+</body>
+
+</html>
